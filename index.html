@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>  </head>
+
+  <body>
+    <h1>Hello Plunker!</h1>
+    
+    <script type="text/javascript" charset="utf-8">
+    
+    var arr = [ 43, 56, 23, 89, 88, 90, 99, 652];
+    
+    function random_from_array ( arr ) {
+      
+      let rand = Math.floor( Math.random() * ( arr.length -1 ) );  
+      let el = arr[ rand ];
+      return ( el) ;
+    }   
+      
+      console.log( random_from_array ( arr ) );               
+    </script>       
+    
+  </body>
+
+</html>
